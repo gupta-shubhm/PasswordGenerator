@@ -1,14 +1,11 @@
-from functools import partial
 import random
 import sys
 from functools import partial
 from string import ascii_letters, digits, punctuation, ascii_lowercase, ascii_uppercase
-
 import pyperclip
 from PyQt5.QtCore import (Qt)
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-
 from passgen import Ui_PassGenerator
 from passgen_dialog import Ui_Dialog
 
